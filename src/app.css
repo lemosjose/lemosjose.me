@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+body {
+    @apply antialiased leading-relaxed space-y-6;
+}
+
+h1 {
+    @apply text-4xl;
+    margin-top: 1.2rem;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        @apply text-center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 1024px;
+        margin: 0 auto 0 auto;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
