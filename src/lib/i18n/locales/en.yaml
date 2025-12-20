@@ -1,0 +1,13 @@
+messages:
+  hello: Hello! I'm José Lemos/lemosjose, or @_voidjl on <a href="https://twitter.com/_voidjl">X</a>,
+  description: I'm a FullStack Developer with ~2 Years of experience/practicing with Typescript (using React/Vite and Fastify) and Python (using Django and FastAPI), i also study Functional Programming and DevOps for personal interest.
+  contact: You can contact me at <a class="bold underline" href="mailto:devlemosjose@gmail.com">devlemosjose@gmail.com</a>. Check the pages in the Header for more about me, my projects and what i do daily, i am also friendly to DM's and Connection request (until now) on <a class="underline" href="https://linkedin.com/in/lemosjose">Linkedin</a>.
+  interest: "Interests:"
+  keenon: "I'm interested with tech in general (as my twitter' bio says - i like computers.) I have some 'unique' interests outside of Work tech/stacks, so i'm keeping them separate here, with they respective icons. Check the Pages on the Header for more on what i do and enjoy!"
+  work: "Work Stack/Programming languages:"
+  personal: "Personal Interest/Hobby Tech:"
+  portfolio: My Portfolio/Projects
+  capitolina: "A Telegram bot that consumes APIs from the web, focusing on ease of use and performance"
+  job_challenges:  "A collection of solutions to job interview challenges."
+  source: "|Repo|"
+  posts: Blog Posts

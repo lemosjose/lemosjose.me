@@ -5,6 +5,12 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	preprocess: vitePreprocess(),
 
+	compilerOptions: { 
+		//needed for the i18n from svelte.vietnam.dev
+		experimental: { 
+			async: true,
+		},
+	}, 
 	kit: {
 		adapter: adapter({
 		})

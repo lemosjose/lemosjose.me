@@ -1,7 +1,15 @@
 import tailwindcss from '@tailwindcss/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
+import { i18n } from '@sveltevietnam/i18n/vite'
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	plugins: [tailwindcss(), sveltekit()]
+	plugins: [
+		i18n({ 
+			input: './src/lib/i18n/locales', 
+			output: './src/lib/i18n/generated',
+			mode: 'static'
+		}),
+		tailwindcss(), 
+		sveltekit()]
 });

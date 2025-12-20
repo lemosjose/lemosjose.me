@@ -1,9 +1,12 @@
 <script lang="ts">
 	import { posts } from '$lib/data/posts';
+
+	import { T } from '@sveltevietnam/i18n';
+	import * as m from "@sveltevietnam/i18n/generated/messages";
 </script>
 
 <div class="container">
-	<h1>My posts (from different sources)</h1>
+	<h1><T message={m.posts} /></h1>
 
 	<div class="posts-grid">
 		{#each posts as post}

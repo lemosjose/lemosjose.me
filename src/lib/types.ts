@@ -1,3 +1,5 @@
+import type { Message } from "@sveltevietnam/i18n";
+
 export interface Post {
     title: string;
     language: string;
@@ -9,7 +11,7 @@ export interface Project {
     title: string;
     stack: string; 
     link: string;
-    description: string;
+    description: string | Message;
     skills: string[]; 
     source: string;
 }

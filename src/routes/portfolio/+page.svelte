@@ -1,12 +1,19 @@
 <script lang="ts">
 	import { projects } from '$lib/data/projects';
+
+	import { T } from '@sveltevietnam/i18n';
+	import * as m from "@sveltevietnam/i18n/generated/messages";
+
+	let { lang } = $props<{ lang: 'pt' | 'en' }>();
+
+	const projectList = $derived(projects(lang));
 </script>
 
 <div class="container">
-	<h1>My Portfolio/Projects:</h1>
+	<h1><T message={m.portfolio} /></h1>
 
 	<div class="projects-grid">
-		{#each projects as project}
+		{#each projectList as project}
 			<div class="project-card">
 				<div class="project-header">
 					<span class="stack-tag">{project.stack}</span>
@@ -21,13 +28,13 @@
 						{project.title}
 					</a>
 				</h2>
-				<p class="description">{project.description}</p>
+				<p class="description"><T message={m[project.description as keyof typeof m]} /></p>
 				<div class="skills">
 					{#each project.skills as skill}
 						<span class="skill">#{skill}</span>
 					{/each}
 					<a href={project.source} target="_blank" rel="noopener noreferrer" class="source"
-						>Source</a
+						><T message={m.source} /></a
 					>
 					<a href={project.link} target="_blank" rel="noopener noreferrer" class="source">Link</a>
 				</div>
