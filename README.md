@@ -1,38 +1,26 @@
-# sv
+# SvelteKit Presentation Site
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a SvelteKit website deployed on **Cloudflare Pages**, using a **Workers-compatible i18n setup** 
 
-## Creating a project
+## Built with:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **SvelteKit**
+- **Cloudflare Pages / Workers**
+- **Vite**
+- **Static JSON-based i18n** (Workers compatible)
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Deploy
 
-# create a new project in my-app
-npx sv create my-app
-```
+This project is designed to run on **Cloudflare Pages**, which uses the **Workers runtime** (not Node.js).
 
-## Developing
+Because of this:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```sh
-npm run dev
+## i18n
+This website is currently available in: 
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- **Portuguese** 
+- **English** 
 
-## Building
 
-To create a production version of your app:
 
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
