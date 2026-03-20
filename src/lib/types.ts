@@ -9,9 +9,9 @@ export interface Post {
 
 export interface Project {
     title: string;
-    stack: string; 
-    link: string;
+    stack: string;
+    source?: string;
+    link?: string;
     description: string | Message;
-    skills: string[]; 
-    source: string;
+    skills: string[];
 }

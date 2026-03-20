@@ -1,0 +1,78 @@
+.homePage {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0.95rem 0 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.introTitle {
+    text-align: left;
+    margin-top: 0.22rem;
+}
+
+.bodyText {
+    text-align: left;
+    max-width: 52rem;
+}
+
+.sectionBlock {
+    padding-top: 0.72rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.sectionTitle {
+    text-align: left;
+    font-size: clamp(2rem, 2.4vw, 2.15rem);
+}
+
+.iconsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.85rem;
+    padding-top: 0.35rem;
+}
+
+.iconAnchor {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 150ms ease;
+}
+
+.iconAnchor:hover {
+    transform: scale(1.12);
+}
+
+.iconAnchor img {
+    width: 48px;
+    height: 48px;
+}
+
+@media screen and (min-width: 900px) {
+    .homePage {
+        padding-top: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .iconAnchor img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .iconsGrid {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .iconAnchor img {
+        width: 38px;
+        height: 38px;
+    }
+}

@@ -1,0 +1,21 @@
+.pageShell {
+    min-height: 100vh;
+}
+
+.pageContent {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1.25rem 2.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .pageContent {
+        padding: 0 2.5rem 2.75rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .pageContent {
+        padding: 0 3rem 3rem;
+    }
+}

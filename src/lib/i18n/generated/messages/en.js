@@ -10,7 +10,7 @@ const _hello = () => "Hello! I'm Jos\u00E9 Lemos/lemosjose, or @_voidjl on <a hr
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
  */
-const _description = () => "I'm a FullStack Developer with ~2 Years of experience/practicing with Typescript (using React/Vite and Fastify) and Python (using Django and FastAPI), i also study Functional Programming and DevOps for personal interest.";
+const _description = () => "I'm a Data Enginner, currently working with AWS, Python, Spark, Apache-Ecossytem and Data Pipelines, but i also love Software Engineering in general.";
 /**
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
@@ -55,10 +55,15 @@ const _job__challenges = () => "A collection of solutions to job interview chall
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
  */
-const _source = () => "|Repo|";
+const _source = () => "Source";
 /**
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
  */
 const _posts = () => "Blog Posts";
-export { _hello as "hello", _description as "description", _contact as "contact", _interest as "interest", _keenon as "keenon", _work as "work", _personal as "personal", _portfolio as "portfolio", _capitolina as "capitolina", _job__challenges as "job_challenges", _source as "source", _posts as "posts" };
+/**
+ * @returns {string}
+ * @__NO_SIDE_EFFECTS__
+ */
+const _pv__simulador = () => "ERP-like SaaS for companies working with Photovoltaic Domestic and Enterprise Systems in Brazil, Paid Subscription";
+export { _hello as "hello", _description as "description", _contact as "contact", _interest as "interest", _keenon as "keenon", _work as "work", _personal as "personal", _portfolio as "portfolio", _capitolina as "capitolina", _job__challenges as "job_challenges", _source as "source", _posts as "posts", _pv__simulador as "pv_simulador" };

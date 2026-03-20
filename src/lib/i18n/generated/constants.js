@@ -3,4 +3,4 @@
 
 export const mode = /**@type {const}*/ ("static");
 export const langs = /**@type {const}*/ (["en", "pt"]);
-export const keys = /**@type {const}*/ (["hello", "description", "contact", "interest", "keenon", "work", "personal", "portfolio", "capitolina", "job_challenges", "source", "posts"]);
+export const keys = /**@type {const}*/ (["hello", "description", "contact", "interest", "keenon", "work", "personal", "portfolio", "capitolina", "job_challenges", "source", "posts", "pv_simulador"]);

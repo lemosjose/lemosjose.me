@@ -10,7 +10,7 @@ const _hello = () => "Ol\u00E1! Eu sou Jos\u00E9 Lemos/lemosjose, ou @_voidjl no
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
  */
-const _description = () => "Sou um Desenvolvedor FullStack com ~2 anos de experi\u00EAncia/pr\u00E1tica com Typescript (utilizando React/Vite e Fastify) e Python (utilizando Django e FastAPI), tamb\u00E9m estudo Programa\u00E7\u00E3o Funcional e DevOps por interesse pessoal.";
+const _description = () => "Sou Engenheiro de Dados, atualmente trabalhando com AWS, Python, Spark, Ecossistema Apache e Pipelines de Dados, mas tamb\u00E9m amo Engenharia de Software no geral.";
 /**
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
@@ -55,10 +55,15 @@ const _job__challenges = () => "Uma cole\u00E7\u00E3o de solu\u00E7\u00F5es para
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
  */
-const _source = () => "|Reposit\u00F3rio|";
+const _source = () => "Reposit\u00F3rio";
 /**
  * @returns {string}
  * @__NO_SIDE_EFFECTS__
  */
 const _posts = () => "Posts dos Blogues (de diferentes fontes)";
-export { _hello as "hello", _description as "description", _contact as "contact", _interest as "interest", _keenon as "keenon", _work as "work", _personal as "personal", _portfolio as "portfolio", _capitolina as "capitolina", _job__challenges as "job_challenges", _source as "source", _posts as "posts" };
+/**
+ * @returns {string}
+ * @__NO_SIDE_EFFECTS__
+ */
+const _pv__simulador = () => "Sistema ERP-Like voltado para empresas do ramo de energia solar, regras de neg\u00F3cio protegidas por NDA";
+export { _hello as "hello", _description as "description", _contact as "contact", _interest as "interest", _keenon as "keenon", _work as "work", _personal as "personal", _portfolio as "portfolio", _capitolina as "capitolina", _job__challenges as "job_challenges", _source as "source", _posts as "posts", _pv__simulador as "pv_simulador" };

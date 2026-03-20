@@ -54,4 +54,8 @@ const _posts = /*@__PURE__*/ createMessageSimple("posts", {
     "en": en["posts"],
     "pt": pt["posts"]
 })
-export { _hello as "hello", _description as "description", _contact as "contact", _interest as "interest", _keenon as "keenon", _work as "work", _personal as "personal", _portfolio as "portfolio", _capitolina as "capitolina", _job__challenges as "job_challenges", _source as "source", _posts as "posts" };
+const _pv__simulador = /*@__PURE__*/ createMessageSimple("pv_simulador", {
+    "en": en["pv_simulador"],
+    "pt": pt["pv_simulador"]
+})
+export { _hello as "hello", _description as "description", _contact as "contact", _interest as "interest", _keenon as "keenon", _work as "work", _personal as "personal", _portfolio as "portfolio", _capitolina as "capitolina", _job__challenges as "job_challenges", _source as "source", _posts as "posts", _pv__simulador as "pv_simulador" };

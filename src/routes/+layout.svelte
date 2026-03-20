@@ -8,7 +8,6 @@
 
 	let { children } = $props();
 
-
 	let lang = $state<Language>('pt');
 </script>
 
@@ -17,6 +16,10 @@
 </svelte:head>
 
 <Provider {lang}>
-	<Header bind:lang={lang}/>
-	{@render children()}
+	<div class="pageShell">
+		<Header bind:lang />
+		<main class="pageContent">
+			{@render children()}
+		</main>
+	</div>
 </Provider>

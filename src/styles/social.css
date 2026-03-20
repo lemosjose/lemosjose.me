@@ -1,0 +1,26 @@
+.SocialLinks {
+    display: flex;
+    gap: 0.65rem;
+    flex-direction: row;
+    align-items: center;
+    font-style: normal;
+    line-height: 1;
+    margin: 0;
+}
+
+.SocialLinks a {
+    color: inherit;
+    font-size: 1.05rem;
+    opacity: 0.9;
+    transition: opacity 150ms ease;
+}
+
+.SocialLinks a:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .SocialLinks a {
+        font-size: 1.05rem;
+    }
+}
